@@ -3,7 +3,6 @@ import {
   ArrowRight,
   Award,
   BookOpen,
-  FlaskConical,
   GraduationCap,
   Laptop,
   ShieldCheck,
@@ -271,11 +270,6 @@ function HomePage() {
       </Section>
 
       <AdmissionCTA />
-
-      {/* Icon strip is decorative only */}
-      <div className="sr-only">
-        <FlaskConical />
-      </div>
     </>
   );
 }
